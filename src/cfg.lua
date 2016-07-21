@@ -1,12 +1,12 @@
 local M
 do
 local tab = { 
-	["server"] = "api.thingspeak.com",
+	["server"] = "XXXX",
 	["wifi"] = {
 		["sta"] = {
 			["1"] = {
-				["ap"] = "K4FH/UNIFI",
-				["pass"] = "fffffffffe"
+				["ap"] = "MYAP",
+				["pass"] = "MYPASS"
 			},
 		},
 	},
