@@ -149,6 +149,8 @@ local function _show(tree, sappend)
 
 			_show(treeV[n], sappend);
 		else
+			-- This needs to go away.  I was using priv. to hide variables in show
+			-- I'm the only user so why hide from myself?
 			if (string.find(n, "priv.") == nil) then
 				if v == nil then
 					v = "[nil]";
